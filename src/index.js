@@ -12,7 +12,6 @@ const init = () => {
     .then(response => response.json())
     .then(data => {
       //console.log(data);
-      // LOG: (3) [{…}, {…}, {…}]
     const title = document.querySelector('section#movieDetails h4');
     const summary = document.querySelector('section#movieDetails p');
 
